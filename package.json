@@ -3,12 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@amcharts/amcharts4": "^4.10.11",
+    "@amcharts/amcharts4-geodata": "^4.1.19",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "cytoscape": "3.2.22",
+    "cytoscape-cose-bilkent": "^4.1.0",
+    "cytoscape-popper": "^1.0.7",
+    "gojs": "^2.1.29",
+    "gojs-react": "^1.0.9",
     "react": "^17.0.1",
+    "react-cytoscapejs": "^1.2.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
+    "styled-components": "^5.2.1",
+    "tippy.js": "5.2.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

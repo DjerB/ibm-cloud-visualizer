@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root, * {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: #3B4557;
+}
+
+#root {
+  padding: 10px 3%;
+}
+
+.diagram-component, #chartdiv {
+  width: 100%; 
+  height: 80vh;
+  margin-top: 12vh;
+  background-color: #edf4f9;
+  border-radius: 40px;
+  /*-moz-box-shadow: inset 0 0 10px #E4E4E4;
+  -webkit-box-shadow: inset 0 0 10px#E4E4E4;
+  box-shadow: inset 0 0 10px #E4E4E4;*/
+}
+
+.diagram-component, .diagram-component * {
+  outline: none;
+}
+
